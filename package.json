@@ -1,0 +1,19 @@
+{
+	"name": "final001",
+	"version": "1.0.1",
+	"engines": {
+		"node": "10.19.0"
+	},
+	"main": "index.js",
+	"repository": "",
+	"author": "Kutlakhmetov Rustam",
+	"license": "MIT",
+	"dependencies": {
+		"body-parser": "^1.16.0",
+		"cors": "^2.8.5",
+		"express": "^4.14.0"
+	},
+	"scripts": {
+		"start": "node index.js"
+	}
+}
