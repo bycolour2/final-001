@@ -25,6 +25,7 @@ app.get("/*", (req, res) => {
 	res.end(pjson.author);
 });
 
-app.listen(3000, () => {
-	console.log("Сервер ожидает подключения...");
+let port = process.env.PORT || 5000;
+app.listen(port, () => {
+	console.log("Сервер ожидает подключения на порту: " + port);
 });
