@@ -5,7 +5,7 @@
 		"node": "10.19.0"
 	},
 	"main": "index.js",
-	"repository": "",
+	"repository": "https://github.com/bycolour2/final-001",
 	"author": "Kutlakhmetov Rustam",
 	"license": "MIT",
 	"dependencies": {
